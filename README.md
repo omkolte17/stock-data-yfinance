@@ -1,28 +1,20 @@
-## Smart Transport Management System for Intracity Travel
+## Fetch Stocks Data using Yahoo Finance API in Python
 
-Passengers can buy bus tickets using the smart card provided by the bus agency or council to each customer which allows them to ride bus without having to worry about carrying cash every time they want to travel. The smart card will act as a travelling pass which will allow the customer to buy ticket using the balance credited into the smart card.
-Hence, the smart card system eliminates the need of carrying cash as well as the need of the bus conductor.
-<br><ul>
-	<li>Unique identification using QR Code printed on the smart card.</li>
-	<li>In case the smart card is stolen then the passenger can report it on the website and visit the nearest bus stop for getting his/her new card with the existing balance.</li>
-</ul>
+The historical data for various stocks can be easily fetched and stored locally using the Yahoo Finance API.
+The Yahoo Finance API is a range of libraries/APIs/methods used to obtain historical and real time data for a variety of financial markets and products, as shown on Yahoo Finance- https://finance.yahoo.com/. Some of the offerings include market data on Cryptocurrencies, regular currencies, stocks and bonds, fundamental and options data, and market analysis and news.
 
-### Software Requirements:
-<ul><li>Python 3.6</li></ul>
+### Pre-requisites:
+<ol>
+	<li>Python 3.6</li>
+	<li>pandas_datareader</li>
+	<li>yfinance</li>
+</ol>
 
-### Hardware Components:
-<ul><li>Arduino</li></ul>
+### Installing pre-requisites
+1. To install pandas_datareader enter `pip install pandas_datareader` in CMD.
+2. To install yfinance enter `pip install yfinance` in CMD.
+##### Note: Make sure you have Python installed on the system.
 
-### Advantages:
-<ul>
-	<li>There is no need to carry cash while travelling.</li>
-	<li>This smart card system will help the passengers eliminate the need of carrying cash for each journey.</li>
-	<li>The balance can be added into the smart card via any credit or debit card.</li>
-</ul>
+### Application:
 
-### Disadvantages:
-<ul><li>Poor crowd management.</li></ul>
-
-### Applications:
-
-This system can be used in any bus transport services. Using this system in government and private sectors can exclude the use of human efforts and save lot of money and time.
+It can be used to fetch historical data for various stocks which are actively listed on the stock exchange.
