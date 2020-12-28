@@ -4,7 +4,7 @@ import yfinance as yf
 yf.pdr_override()
 
 # Add stock names in the list to fetch data
-tickers = ['^NSEI', 'RELIANCE.NS', 'PNB.NS', 'HINDPETRO.NS', 'BHARTIARTL.NS']
+tickers = ['^NSEI', 'RELIANCE.NS', 'BHARTIARTL.NS'] # add ticker symbols here
 
 # date format = yyyy-mm-dd
 start_date = "2017-01-01"
